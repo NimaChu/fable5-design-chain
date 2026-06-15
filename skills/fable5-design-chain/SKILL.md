@@ -1,13 +1,13 @@
 ---
-name: fable-grade-frontend-agent
-description: "Upgrade any coding agent's frontend design process with a Fable-grade three-layer chain: environment preflight, intentional visual direction, anti-convergence guidance, and rendered-product quality gates. Use whenever an agent creates, redesigns, restyles, or visually reviews a website, landing page, web app, dashboard, component, or other frontend UI; when a user asks for a polished, beautiful, memorable, premium, modern, or less-AI-looking interface; or when frontend code needs an aesthetic, responsive, accessibility, or interaction critique. Run this skill before writing frontend code, even when another frontend-building skill also applies."
+name: fable5-design-chain
+description: "Upgrade any coding agent's frontend design process with the Fable5 design chain: environment preflight, intentional visual direction, anti-convergence guidance, and rendered-product quality gates. Use whenever an agent creates, redesigns, restyles, or visually reviews a website, landing page, web app, dashboard, component, or other frontend UI; when a user asks for a polished, beautiful, memorable, premium, modern, or less-AI-looking interface; or when frontend code needs an aesthetic, responsive, accessibility, or interaction critique. Run this skill before writing frontend code, even when another frontend-building skill also applies."
 ---
 
-# Fable-Grade Frontend Agent
+# Fable5 Design Chain
 
 Treat design direction as an engineering input, not decorative cleanup. Establish the environment contract, commit to one context-specific visual thesis, implement it coherently, and verify the rendered result.
 
-"Fable-grade" names the target workflow and quality bar. This skill does not change model weights, claim affiliation with a model provider, or guarantee parity with any specific model.
+"Fable5 Design Chain" names the layered workflow and target quality bar. This skill does not change model weights, claim affiliation with a model provider, or guarantee parity with any specific model.
 
 ## Required Sequence
 

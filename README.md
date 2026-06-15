@@ -1,4 +1,4 @@
-# Fable-Grade Frontend Agent
+# Fable5 Design Chain
 
 Upgrade any coding agent's frontend design process with a portable three-layer skill chain.
 
@@ -12,9 +12,9 @@ The skill helps an agent understand the environment before coding, commit to an 
 
 It works with Codex, Claude Code, Cursor, and other coding agents that support Agent Skills or can load Markdown instructions.
 
-## Why "Fable-Grade"
+## Why "Fable5 Design Chain"
 
-"Fable-grade" describes the target workflow and quality bar: a layered instruction chain that gives a capable model environment knowledge, anti-default guidance, and a design-thinking framework before it writes frontend code.
+"Fable5 Design Chain" describes the target workflow and quality bar: a layered instruction chain that gives a capable model environment knowledge, anti-default guidance, and a design-thinking framework before it writes frontend code.
 
 This project does not change model weights, guarantee parity with any specific model, or claim affiliation with Anthropic, OpenAI, or any model provider.
 
@@ -23,21 +23,21 @@ This project does not change model weights, guarantee parity with any specific m
 Install with the Agent Skills CLI:
 
 ```bash
-npx skills add https://github.com/NimaChu/fable-grade-frontend-agent --skill fable-grade-frontend-agent
+npx skills add https://github.com/NimaChu/fable5-design-chain --skill fable5-design-chain
 ```
 
-Or copy `skills/fable-grade-frontend-agent` into your agent's skills directory.
+Or copy `skills/fable5-design-chain` into your agent's skills directory.
 
 For Codex, place it under:
 
 ```text
-~/.codex/skills/fable-grade-frontend-agent
+~/.codex/skills/fable5-design-chain
 ```
 
 Invoke it explicitly:
 
 ```text
-Use $fable-grade-frontend-agent to redesign this dashboard and visually verify the result.
+Use $fable5-design-chain to redesign this dashboard and visually verify the result.
 ```
 
 Its metadata is also written to trigger automatically for frontend creation, redesign, restyling, and visual review work.
@@ -55,7 +55,7 @@ Its metadata is also written to trigger automatically for frontend creation, red
 ## Structure
 
 ```text
-skills/fable-grade-frontend-agent/
+skills/fable5-design-chain/
   SKILL.md
   agents/openai.yaml
   references/
