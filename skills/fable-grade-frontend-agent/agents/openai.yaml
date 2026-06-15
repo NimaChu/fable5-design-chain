@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fable-Grade Frontend Agent"
+  short_description: "Upgrade any agent frontend design workflow"
+  default_prompt: "Use $fable-grade-frontend-agent to turn this frontend brief into an intentional, distinctive, production-ready interface and visually verify it."
