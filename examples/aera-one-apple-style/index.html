@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aera One spatial audio product concept, created as a Fable5 Design Chain test."
+    />
+    <title>Aera One - Sound, given space.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Aera home">AERA</a>
+      <nav aria-label="Main navigation">
+        <a href="#sound">Sound</a>
+        <a href="#craft">Craft</a>
+        <a href="#finish">Finish</a>
+      </nav>
+      <a class="nav-cta" href="#order">Pre-order</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-light">
+        <div class="hero-copy reveal">
+          <h1>Sound,<br />given space.</h1>
+          <p>
+            Aera One renders every note with distance, direction, and a sense
+            of place.
+          </p>
+          <a class="primary-button" href="#finish">
+            Meet Aera One
+            <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+        <div class="hero-stage reveal">
+          <div class="stage-halo" aria-hidden="true"></div>
+          <img
+            src="assets/aera-silver.png"
+            alt="Silver Aera One over-ear spatial audio headphones"
+          />
+        </div>
+      </section>
+
+      <section class="sound-section" id="sound">
+        <div class="sound-copy reveal">
+          <p class="section-index">Spatial audio</p>
+          <h2>Not surround.<br />Space.</h2>
+          <p>
+            Aera One builds a three-dimensional sound field around you.
+            Voices stay anchored. Details arrive naturally. The room opens up.
+          </p>
+          <button class="text-button" type="button" id="sound-toggle">
+            Hear the idea
+            <span aria-hidden="true">&rarr;</span>
+          </button>
+          <p class="sound-status" id="sound-status" aria-live="polite"></p>
+        </div>
+        <div class="sound-visual reveal">
+          <img
+            src="assets/aera-spatial.png"
+            alt="Black Aera One headphones inside a blue spatial sound field"
+          />
+        </div>
+      </section>
+
+      <section class="craft-section section-light" id="craft">
+        <div class="craft-copy reveal">
+          <p class="section-index">Craft</p>
+          <h2>Made quiet.<br />Made precise.</h2>
+          <p>
+            One continuous aluminum shell. Breathable acoustic knit.
+            Controls that disappear beneath your fingers.
+          </p>
+          <dl class="detail-list">
+            <div>
+              <dt>28 hr</dt>
+              <dd>listening time</dd>
+            </div>
+            <div>
+              <dt>312 g</dt>
+              <dd>balanced weight</dd>
+            </div>
+            <div>
+              <dt>40 mm</dt>
+              <dd>adaptive driver</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="material-frame reveal">
+          <div class="material-disc material-disc-one"></div>
+          <div class="material-disc material-disc-two"></div>
+          <div class="material-line"></div>
+          <p>Aluminum / acoustic knit / precision hinge</p>
+        </div>
+      </section>
+
+      <section class="finish-section" id="finish">
+        <div class="finish-copy reveal">
+          <p class="section-index">Your finish</p>
+          <h2>One sound.<br />Your tone.</h2>
+          <p id="finish-description">
+            Lunar Silver keeps the details visible and the form weightless.
+          </p>
+          <div class="swatches" role="radiogroup" aria-label="Choose a finish">
+            <button
+              class="swatch is-active"
+              type="button"
+              role="radio"
+              aria-checked="true"
+              data-finish="silver"
+              aria-label="Lunar Silver"
+            ></button>
+            <button
+              class="swatch"
+              type="button"
+              role="radio"
+              aria-checked="false"
+              data-finish="graphite"
+              aria-label="Graphite Black"
+            ></button>
+            <button
+              class="swatch"
+              type="button"
+              role="radio"
+              aria-checked="false"
+              data-finish="blue"
+              aria-label="Ocean Blue"
+            ></button>
+          </div>
+          <p class="finish-name" id="finish-name">Lunar Silver</p>
+        </div>
+        <div class="finish-product reveal" data-finish="silver">
+          <div class="finish-glow" aria-hidden="true"></div>
+          <img
+            src="assets/aera-silver.png"
+            alt="Aera One headphones in Lunar Silver"
+            id="finish-image"
+          />
+        </div>
+      </section>
+
+      <section class="order-section section-light" id="order">
+        <div class="order-copy reveal">
+          <h2>Ready when you are.</h2>
+          <p>Aera One arrives this fall. From $549.</p>
+          <button class="primary-button" type="button" id="order-button">
+            Pre-order Aera One
+            <span aria-hidden="true">&rarr;</span>
+          </button>
+          <p class="order-status" id="order-status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark" href="#top">AERA</a>
+      <p>Fictional product concept. No affiliation with Apple.</p>
+      <p>&copy; 2026 Aera</p>
+    </footer>
+  </body>
+</html>

@@ -52,6 +52,35 @@ Its metadata is also written to trigger automatically for frontend creation, red
 - Inspect the rendered UI across desktop and mobile; a successful build is not visual QA.
 - Prefer progressive disclosure over one enormous wall of rules.
 
+## Live Forward Test
+
+The repository includes a real test case generated after the rename to
+`fable5-design-chain`:
+
+![Aera One desktop preview](examples/aera-one-apple-style/screenshots/preview-desktop.png)
+
+**Prompt:** "Create a modern Apple-inspired webpage."
+
+**Result:** `examples/aera-one-apple-style/` is a static fictional product page
+for "Aera One," an over-ear spatial audio concept. It avoids Apple logos,
+real Apple products, and copied Apple marketing text while still testing the
+kind of precise spacing, product imagery, responsive behavior, and polished
+interaction states that an Apple-inspired brief tends to demand.
+
+The forward test exposed and fixed concrete quality issues:
+
+- Reveal-animation screenshots initially hid useful content, so the demo keeps
+  revealed content visible during capture while retaining motion.
+- CSS `filter` color swaps polluted white product backgrounds, so finish
+  swatches now switch between real image assets.
+- A later mobile screenshot pass caught a small-width overflow risk, so the
+  mobile hero and floating navigation were tightened before publishing.
+
+Validation covered desktop and 390px mobile viewports, image loading, no
+horizontal overflow, desktop navigation, mobile navigation collapse, finish
+switching to `aera-blue.png` and `aera-graphite.png`, and pre-order CTA
+feedback.
+
 ## Structure
 
 ```text
@@ -62,6 +91,14 @@ skills/fable5-design-chain/
     calibration-and-redesign.md
     design-cookbook.md
     preflight-and-qa.md
+
+examples/
+  aera-one-apple-style/
+    index.html
+    styles.css
+    app.js
+    assets/
+    screenshots/
 ```
 
 ## Influences
